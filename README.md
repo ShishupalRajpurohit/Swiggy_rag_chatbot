@@ -9,7 +9,7 @@ Public Source: https://www.swiggy.com/about-us/
 ## Objective
 Build a Retrieval-Augmented Generation (RAG) system that answers questions strictly based on the Swiggy Annual Report.
 
-The system does NOT hallucinate and only responds from retrieved document context.
+The system only responds from retrieved document context.
 
 ---
 
@@ -93,4 +93,5 @@ python app.py
 
 - Answers only from provided PDF
 - No UI (CLI only as allowed)
+
 - No additional analytics or summarization
